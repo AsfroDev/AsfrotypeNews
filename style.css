@@ -62,7 +62,7 @@ img{
 }
 #title{
     margin-bottom: 5px;
-    margin-top: 8px;
+    margin-top: 10px;
 
     color: #EEEEEE;
     font-weight: 300;
@@ -80,7 +80,7 @@ img{
     text-align: center;
     font-style: normal;
     font-size: small;
-    padding: 0 60px 0 60px;
+    padding: 0 0px 0 0px;
 }
 @keyframes infiniteFade {
     0% {
