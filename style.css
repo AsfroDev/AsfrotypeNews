@@ -15,35 +15,18 @@ body{
     justify-content: center;
     align-items: center;
     background-color: #000000;
-
-    animation: bodyChroma 10s infinite ease-in-out;
 }
-@keyframes bodyChroma {
-    0% {
-        background-color: #000000;
-    }
-    50%{
-        background-color:#141414;
-    }
-    70% {
-        background-color: #263824;
-    }
-    100%{
-        background-color: #000000;
-    }
-    
-  }
 img{
     width: 60vw;
-    border-radius: 50%;
+    /*border-radius: 50%;*/
     margin: 5px;
     max-width: 400px;
     animation: imgTurn 3s ease-out;
-    box-shadow: #51864c 0px 1px 15px;
+    /*box-shadow: #51864c 0px 1px 15px;*/
 }
 @keyframes imgTurn {
     0% {
-        transform: translate(0px, 70px);
+        transform: translate(0px, 10px);
     }
     50%{
         transform: translate(0px, 4px);
@@ -63,16 +46,16 @@ img{
 #title{
     margin-bottom: 5px;
     margin-top: 10px;
-
     color: #EEEEEE;
     font-weight: 300;
     text-align: center;
     font-style: italic;
-    animation: infiniteFade 6s infinite ease-out;
+    animation: infiniteFade 4s ease-in;
+    font-size: large;
 }
 #title2{
     margin-bottom: 0px;
-    margin-top: 20px;
+    margin-top: 50px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #EEEEEE;
     opacity: 90%;
@@ -87,10 +70,10 @@ img{
         opacity: 0%;
     }
     50%{
-        opacity: 100%;
+        opacity: 60%;
     }
     100% {
-        opacity: 0%;
+        opacity: 100%;
     }
   }
 .links{
@@ -103,19 +86,19 @@ img{
     padding: 5px;
 }
 button{
-    margin: 3px;
+    margin: 5px;
     padding: 18px;
     width: 70vw;
     max-width: 720px;
 
-    background-color: #51864c;
+    background-color: #37474F;
     color: #EEEEEE;
     border-radius: 25px;
     cursor: pointer;
     font-weight:300;
     font-size: medium;
     text-shadow:#000000 0px 2px 10px;
-    box-shadow: #51864c 0px 1px 15px;
+    box-shadow: #37474F 0px 1px 10px;
     transition: 200ms;
     animation: btnSpaw 500ms ease-out;
 }
@@ -138,11 +121,11 @@ button:hover{
     
 }
 #cursobtn{
-    background-color: #9355a4;
-    color: #EEEEEE;
+    background-color: #FFC727;
+    color: #37474F;
     text-shadow:#eeeeee03 0px 2px 10px;
     font-weight: 600;
-    box-shadow: #9355a4 0px 1px 20px;
+    box-shadow: #FFC727 0px 1px 13px;
 }
 #cursobtn:hover{
     color: #000000;
@@ -184,4 +167,30 @@ a{
 }
 a:hover{
     color: #EEEEEE;
+}
+hr{
+    margin: 60px 0 40px 0;
+    width: 80vw;
+    max-width: 800px;
+    height: 1px;
+    background-color: #EEEEEE;
+    opacity: 40%;
+}
+.topbar{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#logo{
+    color: #EEEEEE;
+    height: 100%;
+    padding: 20px;
+}
+.hrtop{
+    width: 94vw;
+    min-width: 90vw;
+    margin: 0;
+    opacity: 20%;
 }

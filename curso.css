@@ -16,6 +16,8 @@ body{
     justify-content: center;
     align-items: center;
     background-color: #000000;
+    width: 90vw;
+    margin:0 auto;
 }
 img{
     margin-top: 8vh;
