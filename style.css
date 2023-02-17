@@ -184,9 +184,11 @@ hr{
     align-items: center;
 }
 #logo{
-    color: #EEEEEE;
+    color: #FFC727;
     height: 100%;
     padding: 20px;
+    font-weight: 600;
+    opacity: 90%;
 }
 .hrtop{
     width: 94vw;
